@@ -4,10 +4,7 @@ import axios from "axios";
 
 const Docker = () => {
   const USER = "saileshp56";
-  //   const URL = `https://hub.docker.com/v2/repositories/${USER}/`;
   const URL = ``;
-
-  //   const ProxyURL = "https://cors-anywhere.herokuapp.com/";
   const ProxyURL = "http://localhost:8080";
 
   const [repoArr, setRepoArr] = useState([]);
