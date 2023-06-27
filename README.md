@@ -5,8 +5,10 @@ In nginx/default.conf you must replace this line:
 ```
 proxy_pass https://hub.docker.com/v2/repositories/saileshp56/;
 ```
-With your own username
-
+With your own username to be like this:
+```
+proxy_pass https://hub.docker.com/v2/repositories/<user>/;
+```
 
 
 Run this command in the root folder: 
