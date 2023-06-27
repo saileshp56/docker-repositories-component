@@ -1,10 +1,3 @@
-/* .graph {
-    width: 10%;
-    Adjust this value to your liking 
-    margin: 0 auto;
-    This centers the chart
-}  */
-
 .project-div {
     background-color: #252525;
     padding: 1em;
@@ -13,20 +6,10 @@
     border: 2px solid #6BCBDE;
     position: relative;
     margin: 1em;
-    /* Less space between projects */
     flex-direction: row;
     justify-content: space-between;
     align-items: start;
-    /* Align items to the start */
-}
 
-.graph {
-    position: relative;
-    width: 300px;
-    /* Fix the width of the graph */
-    height: 200px;
-    /* Fix the height of the graph */
-    margin: auto;
 }
 
 .project-title {
@@ -35,9 +18,6 @@
     font-size: 1.5em;
     display: flex;
     align-items: center;
-    /* Align title and pin */
-    
-    /* Reduce the font-size */
 }
 
 
@@ -60,7 +40,6 @@
 
 .project-title span {
     margin-left: 10px;
-    /* Add some space between title and pin */
     font-size: 1em;
 }
 
