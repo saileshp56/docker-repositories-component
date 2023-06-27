@@ -17,3 +17,5 @@ docker build -t nginx-reverse-proxy .
 
 docker run -p 8080:8080 nginx-reverse-proxy
 ```
+
+The resultant component will look like this:
