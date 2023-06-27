@@ -11,7 +11,7 @@ proxy_pass https://hub.docker.com/v2/repositories/<user>/;
 ```
 
 
-Run this command in the root folder: 
+Then, run this command in the root folder: 
 ```
 docker build -t nginx-reverse-proxy .
 
