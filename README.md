@@ -19,3 +19,4 @@ docker run -p 8080:8080 nginx-reverse-proxy
 ```
 
 The resultant component will look like this:
+![Screenshot](Screen Shot 2023-06-27 at 1.18.11 PM.png)
