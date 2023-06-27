@@ -1,0 +1,89 @@
+/* .graph {
+    width: 10%;
+    Adjust this value to your liking 
+    margin: 0 auto;
+    This centers the chart
+}  */
+
+.project-div {
+    background-color: #252525;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.7);
+    border: 2px solid #6BCBDE;
+    position: relative;
+    margin: 1em;
+    /* Less space between projects */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    /* Align items to the start */
+}
+
+.graph {
+    position: relative;
+    width: 300px;
+    /* Fix the width of the graph */
+    height: 200px;
+    /* Fix the height of the graph */
+    margin: auto;
+}
+
+.project-title {
+    color: #6BCBDE;
+    font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    /* Align title and pin */
+    
+    /* Reduce the font-size */
+}
+
+
+
+.project-title a {
+    color: #6BCBDE;
+    /* text-decoration: none; */
+    /*Uncomment the `text-decoration: none;` if you don't want the underline */
+
+}
+
+.project-title a:hover {
+    color: #FFFFFF;
+    /* Change the color when hover */
+    text-decoration: underline;
+    /* Add an underline when hover */
+    cursor: pointer;
+    /* Change the cursor to a pointer when hover */
+}
+
+.project-title span {
+    margin-left: 10px;
+    /* Add some space between title and pin */
+    font-size: 1em;
+}
+
+
+.project-header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-grow: 1;
+    /* Added this line */
+}
+
+.content-types {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-type-tag {
+    margin: 5px;
+    padding: 5px 10px;
+    border: 1px solid #6BCBDE;
+    border-radius: 5px;
+    background-color: #252525;
+    color: #F9F9FC;
+    font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+}
